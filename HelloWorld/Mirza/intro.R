@@ -1,0 +1,6 @@
+require(MASS) > data(Boston)
+help(Boston)
+plot(medv~rm,Boston, col="blue", xlab="Room Quantity", ylab="Median Housing Value")
+fit1=lm(medv~rm,data=Boston)
+summary(fit1)
+abline(fit1,col="green")
