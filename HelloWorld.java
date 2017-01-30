@@ -3,7 +3,7 @@ package wsu.edu;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Print message
         System.out.print("Hello World!");
 	}
 
